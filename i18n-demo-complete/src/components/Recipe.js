@@ -3,8 +3,10 @@ import Nutrition from "./Nutrition";
 export default function Recipe(props) {
   return (
     <main className="bg-stone-950 w-full rounded-lg shadow-lg overflow-hidden mt-4 px-4 pb-4">
-      <h2 className="text-amber-200 text-xs font-thin mt-2">Today's recipe</h2>
-      <h3 className="bg-gradient-to-r from-amber-400 to-amber-700 text-stone-950 text-lg font-bold mb-2 px-1 rounded-sm">
+      <h2 className="text-amber-200 text-xs font-thin mt-2 mb-1">
+        Today's recipe
+      </h2>
+      <h3 className="bg-gradient-to-r from-amber-300 to-amber-500 text-stone-950 text-lg font-bold mb-2 px-2 py-1 rounded-sm">
         Delightful Vegan Bean Burger
       </h3>
       <div className="flex">
