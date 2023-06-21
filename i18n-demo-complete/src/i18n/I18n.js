@@ -6,7 +6,7 @@ export default function I18n(props) {
     <IntlProvider
       locale={defaultLocale}
       defaultLocale={defaultLocale}
-      messages={locales[defaultLocale]}
+      messages={locales[defaultLocale].messages}
     >
       {props.children}
     </IntlProvider>
