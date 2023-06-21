@@ -5,9 +5,11 @@ export const defaultLocale = "en-US";
 
 export const locales = {
   "en-US": {
+    name: "English",
     messages: enMessages,
   },
   "ar-EG": {
+    name: "Arabic (العربية)",
     messages: arMessages,
   },
 };
