@@ -1,4 +1,4 @@
-import { FormattedMessage, useIntl } from "react-intl";
+import { FormattedMessage, FormattedNumber, useIntl } from "react-intl";
 import Nutrition from "./Nutrition";
 
 export default function Recipe() {
@@ -33,11 +33,12 @@ export default function Recipe() {
 
           <div className="flex">
             <p className="text-amber-100 text-xs font-light py-1 px-2 rounded-sm ltr:mr-2 rtl:ml-2 bg-amber-800">
-              ⏲️ 40min
+              ⏲️{" "}
+              <FormattedMessage id="recipe.time_taken" values={{ min: 40 }} />
             </p>
 
             <p className="text-amber-100 text-xs font-light py-1 px-2 rounded-sm bg-amber-800 ltr:mr-2 rtl:ml-2">
-              ❤️ 2291
+              ❤️ <FormattedNumber value={2291} />
             </p>
 
             <p className="text-amber-100 text-xs font-light py-1 px-2 rounded-sm bg-amber-800">
