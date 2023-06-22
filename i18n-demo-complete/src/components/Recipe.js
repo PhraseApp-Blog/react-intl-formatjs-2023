@@ -36,8 +36,15 @@ export default function Recipe() {
               ⏲️ 40min
             </p>
 
-            <p className="text-amber-100 text-xs font-light py-1 px-2 rounded-sm bg-amber-800">
+            <p className="text-amber-100 text-xs font-light py-1 px-2 rounded-sm bg-amber-800 ltr:mr-2 rtl:ml-2">
               ❤️ 2291
+            </p>
+
+            <p className="text-amber-100 text-xs font-light py-1 px-2 rounded-sm bg-amber-800">
+              <FormattedMessage
+                id="recipe.comment_count"
+                values={{ count: 419 }}
+              />
             </p>
           </div>
 

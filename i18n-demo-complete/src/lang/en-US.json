@@ -5,5 +5,6 @@
   "recipe.title_label": "Today's recipe",
   "recipe.title": "Delightful Vegan Bean Burger",
   "recipe.img_alt": "Vegan burger on a wooden plate",
-  "recipe.author": "by {author}"
+  "recipe.author": "by {author}",
+  "recipe.comment_count": "{count, plural, =0 {No comments} one {# comment} other {# comments}}"
 }

@@ -5,5 +5,6 @@
   "recipe.title_label": "وصفة اليوم",
   "recipe.title": "برغر الفاصوليا النباتي الرائع",
   "recipe.img_alt": "برغر نباتي على طبق خشبي",
-  "recipe.author": "من {author}"
+  "recipe.author": "من {author}",
+  "recipe.comment_count": "{count, plural, =0 {لا توجد تعليقات} one {تعليق #} two {تعليقين #} few {# تعليقات} many {# تعليق} other {# تعليق}}"
 }
