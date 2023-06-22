@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  @apply h-screen bg-gradient-to-r from-amber-500 to-amber-800;
+  @apply bg-gradient-to-r from-amber-500 to-amber-800;
 }
 
 td {
