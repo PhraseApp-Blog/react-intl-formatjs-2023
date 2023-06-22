@@ -10,7 +10,7 @@ export default function LangSwitcher({ onLangChanged }) {
       <img
         src="/noun-language-4114572.svg"
         alt="Langage switcher icon"
-        className="w-4 h-4 mt-1 mr-1"
+        className="w-4 h-4 mt-1 ltr:mr-1 rtl:ml-1"
       />
 
       <select

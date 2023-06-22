@@ -4,12 +4,12 @@ export default function Nutrition() {
       <thead>
         <tr className="bg-amber-400 text-stone-950 text-sm">
           <th colSpan={2}>
-            <h4 className="text-stone-950 font-bold text-left px-2 py-1">
+            <h4 className="text-stone-950 font-bold ltr:text-left rtl:text-right px-2 py-1">
               Nutrition
             </h4>
           </th>
 
-          <th className="text-right font-normal w-1/3 px-2 py-1">
+          <th className="ltr:text-right rtl:text-left font-normal w-1/3 px-2 py-1">
             % Daily Value
           </th>
         </tr>
@@ -23,12 +23,12 @@ export default function Nutrition() {
         <tr>
           <td>Fat</td>
           <td>1g</td>
-          <td className="text-right">2%</td>
+          <td className="ltr:text-right rtl:text-left">2%</td>
         </tr>
         <tr>
           <td>Carbs</td>
           <td>30g</td>
-          <td className="text-right">11%</td>
+          <td className="ltr:text-right rtl:text-left">11%</td>
         </tr>
         <tr>
           <td>Protein</td>

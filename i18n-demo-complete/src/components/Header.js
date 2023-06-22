@@ -9,7 +9,7 @@ export default function Header() {
       <div className="flex">
         <img
           alt={intl.$t({ id: "app.logo_alt" })}
-          className="w-6 h-6 mr-[1px]"
+          className="w-6 h-6 ltr:mr-[1px] rtl:ml-[2px]"
           src="/noun-recipe-2701716.svg"
         />
         <h1 className="text-stone-950 font-bold">

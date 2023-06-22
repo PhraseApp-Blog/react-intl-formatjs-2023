@@ -6,11 +6,11 @@ export default function Recipe(props) {
       <h2 className="text-amber-200 text-xs font-thin mt-2 mb-1">
         Today's recipe
       </h2>
-      <h3 className="bg-gradient-to-r from-amber-300 to-amber-500 text-stone-950 text-lg font-bold mb-2 px-2 py-1 rounded-sm">
+      <h3 className="ltr:bg-gradient-to-r rtl:bg-gradient-to-l from-amber-300 to-amber-500 text-stone-950 text-lg font-bold mb-2 px-2 py-1 rounded-sm">
         Delightful Vegan Bean Burger
       </h3>
       <div className="flex">
-        <div className="w-[200px] mr-4">
+        <div className="w-[200px] ltr:mr-4 rtl:ml-4">
           <img src="/vegan_burger.jpg" alt="Vegan burger on a wooden plate" />
         </div>
 
@@ -21,7 +21,7 @@ export default function Recipe(props) {
           </div>
 
           <div className="flex">
-            <p className="text-amber-100 text-xs font-light py-1 px-2 rounded-sm mr-2 bg-amber-800">
+            <p className="text-amber-100 text-xs font-light py-1 px-2 rounded-sm ltr:mr-2 rtl:ml-2 bg-amber-800">
               ⏲️ 40min
             </p>
 

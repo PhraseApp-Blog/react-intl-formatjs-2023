@@ -1,10 +1,14 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { IntlProvider } from "react-intl";
 import { defaultLocale, locales } from "./i18n-config";
 import { LocaleContext } from "./LocaleContext";
 
 export default function I18n(props) {
   const [locale, setLocale] = useState(defaultLocale);
+
+  useEffect(() => {
+    document.dir = locales[locale].dir;
+  }, [locale]);
 
   return (
     <LocaleContext.Provider value={{ locale, setLocale }}>
