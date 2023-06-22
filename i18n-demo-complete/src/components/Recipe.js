@@ -1,4 +1,9 @@
-import { FormattedMessage, FormattedNumber, useIntl } from "react-intl";
+import {
+  FormattedDate,
+  FormattedMessage,
+  FormattedNumber,
+  useIntl,
+} from "react-intl";
 import Nutrition from "./Nutrition";
 
 export default function Recipe() {
@@ -28,7 +33,9 @@ export default function Recipe() {
                 values={{ author: "Rabia Mousa" }}
               />
             </p>
-            <p className="text-amber-300 text-xs font-thin">2023/6/20</p>
+            <p className="text-amber-300 text-xs font-thin">
+              <FormattedDate value={Date.parse("2023-06-20")} />
+            </p>
           </div>
 
           <div className="flex">
