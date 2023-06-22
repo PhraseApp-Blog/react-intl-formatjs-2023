@@ -2,9 +2,10 @@ import { useEffect, useState } from "react";
 import { IntlProvider } from "react-intl";
 import { defaultLocale } from "./i18n-config";
 import { LocaleContext } from "./LocaleContext";
+import { userLocale } from "./user-locale";
 
 export default function I18n(props) {
-  const [locale, setLocale] = useState(defaultLocale);
+  const [locale, setLocale] = useState(userLocale());
   const [messages, setMessages] = useState(null);
 
   useEffect(() => {

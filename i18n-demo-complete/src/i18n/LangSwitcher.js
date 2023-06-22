@@ -1,6 +1,7 @@
 import { useContext } from "react";
 import { locales } from "./i18n-config";
 import { LocaleContext } from "./LocaleContext";
+import { setStoredLocale } from "./stored-locale";
 
 export default function LangSwitcher({ onLangChanged }) {
   const { locale, setLocale } = useContext(LocaleContext);
@@ -15,7 +16,10 @@ export default function LangSwitcher({ onLangChanged }) {
 
       <select
         value={locale}
-        onChange={(e) => setLocale(e.target.value)}
+        onChange={(e) => {
+          setLocale(e.target.value);
+          setStoredLocale(e.target.value);
+        }}
         className="bg-transparent"
       >
         {Object.keys(locales).map((loc) => (
