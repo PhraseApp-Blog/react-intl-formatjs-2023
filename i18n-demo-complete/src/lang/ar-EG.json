@@ -1,5 +1,9 @@
 {
   "app.title": "يومباتا",
   "app.tagline": "وصفة اليوم",
-  "app.logo_alt": "رمز يومتابا"
+  "app.logo_alt": "رمز يومتابا",
+  "recipe.title_label": "وصفة اليوم",
+  "recipe.title": "برغر الفاصوليا النباتي الرائع",
+  "recipe.img_alt": "برغر نباتي على طبق خشبي",
+  "recipe.author": "من {author}"
 }

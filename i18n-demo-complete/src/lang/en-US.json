@@ -1,5 +1,9 @@
 {
   "app.title": "Yomtaba",
   "app.tagline": "recipe of the day",
-  "app.logo_alt": "Yomtaba logo"
+  "app.logo_alt": "Yomtaba logo",
+  "recipe.title_label": "Today's recipe",
+  "recipe.title": "Delightful Vegan Bean Burger",
+  "recipe.img_alt": "Vegan burger on a wooden plate",
+  "recipe.author": "by {author}"
 }
