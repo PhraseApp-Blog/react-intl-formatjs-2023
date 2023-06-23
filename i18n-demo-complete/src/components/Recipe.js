@@ -21,7 +21,7 @@ export default function Recipe() {
         <div className="w-[200px] me-4">
           <img
             src="/vegan_burger.jpg"
-            alt={intl.$t({ id: "recipe.img_alt" })}
+            alt={intl.formatMessage({ id: "recipe.img_alt" })}
           />
         </div>
 

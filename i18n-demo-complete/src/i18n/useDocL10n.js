@@ -7,6 +7,6 @@ export function useDocL10n() {
 
   useEffect(() => {
     document.dir = locales[intl.locale].dir;
-    document.title = intl.$t({ id: "app.title" });
+    document.title = intl.formatMessage({ id: "app.title" });
   }, [intl, intl.locale]);
 }

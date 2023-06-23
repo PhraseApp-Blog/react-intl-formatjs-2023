@@ -8,7 +8,7 @@ export default function Header() {
     <header className="bg-amber-400/80 w-full mt-2 px-6 py-3 rounded-md flex justify-between">
       <div className="flex">
         <img
-          alt={intl.$t({ id: "app.logo_alt" })}
+          alt={intl.formatMessage({ id: "app.logo_alt" })}
           className="w-6 h-6 ltr:mr-[1px] rtl:ml-[2px]"
           src="/noun-recipe-2701716.svg"
         />
