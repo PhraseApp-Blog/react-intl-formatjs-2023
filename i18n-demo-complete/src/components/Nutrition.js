@@ -9,12 +9,12 @@ export default function Nutrition() {
       <thead>
         <tr className="bg-amber-400 text-stone-950 text-sm">
           <th colSpan={2}>
-            <h4 className="text-stone-950 font-bold ltr:text-left rtl:text-right px-2 py-1">
+            <h4 className="text-stone-950 font-bold text-start px-2 py-1">
               <FormattedMessage id="nutrition.header" />
             </h4>
           </th>
 
-          <th className="ltr:text-right rtl:text-left font-normal w-1/3 px-2 py-1">
+          <th className="text-end font-normal w-1/3 px-2 py-1">
             <FormattedMessage id="nutrition.daily_value_header" />
           </th>
         </tr>
@@ -36,7 +36,7 @@ export default function Nutrition() {
           <td>
             <FormattedNumber value={1} style="unit" unit="gram" />
           </td>
-          <td className="ltr:text-right rtl:text-left">
+          <td className="text-end">
             <FormattedNumber value={0.2} style="percent" />
           </td>
         </tr>
@@ -45,7 +45,7 @@ export default function Nutrition() {
             <FormattedMessage id="nutrition.carbs_label" />
           </td>
           <td>{intl.formatNumber(30, { style: "unit", unit: "gram" })}</td>
-          <td className="ltr:text-right rtl:text-left">
+          <td className="text-end">
             {intl.formatNumber(0.11, { style: "percent" })}
           </td>
         </tr>

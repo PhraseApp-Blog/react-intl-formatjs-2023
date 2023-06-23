@@ -18,7 +18,7 @@ export default function Recipe() {
         <FormattedMessage id="recipe.title" />
       </h3>
       <div className="flex">
-        <div className="w-[200px] ltr:mr-4 rtl:ml-4">
+        <div className="w-[200px] me-4">
           <img
             src="/vegan_burger.jpg"
             alt={intl.$t({ id: "recipe.img_alt" })}
@@ -39,12 +39,12 @@ export default function Recipe() {
           </div>
 
           <div className="flex">
-            <p className="text-amber-100 text-xs font-light py-1 px-2 rounded-sm ltr:mr-2 rtl:ml-2 bg-amber-800">
+            <p className="text-amber-100 text-xs font-light py-1 px-2 rounded-sm me-2 bg-amber-800">
               ⏲️{" "}
               <FormattedMessage id="recipe.time_taken" values={{ min: 40 }} />
             </p>
 
-            <p className="text-amber-100 text-xs font-light py-1 px-2 rounded-sm bg-amber-800 ltr:mr-2 rtl:ml-2">
+            <p className="text-amber-100 text-xs font-light py-1 px-2 rounded-sm bg-amber-800 me-2">
               ❤️ <FormattedNumber value={2291} />
             </p>
 
