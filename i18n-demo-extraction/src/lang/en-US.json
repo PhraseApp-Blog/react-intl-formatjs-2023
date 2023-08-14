@@ -1,0 +1,11 @@
+{
+  "app.logo_alt": {
+    "defaultMessage": "Yomtaba logo"
+  },
+  "app.tagline": {
+    "defaultMessage": "recipe of the day"
+  },
+  "app.title": {
+    "defaultMessage": "Yomtaba"
+  }
+}

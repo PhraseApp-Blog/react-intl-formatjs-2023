@@ -1,0 +1,20 @@
+{
+  "app.logo_alt": [
+    {
+      "type": 0,
+      "value": "Yomtaba logo"
+    }
+  ],
+  "app.tagline": [
+    {
+      "type": 0,
+      "value": "recipe of the day"
+    }
+  ],
+  "app.title": [
+    {
+      "type": 0,
+      "value": "Yomtaba"
+    }
+  ]
+}

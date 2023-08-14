@@ -1,0 +1,20 @@
+{
+  "app.logo_alt": [
+    {
+      "type": 0,
+      "value": "رمز يومتابا"
+    }
+  ],
+  "app.tagline": [
+    {
+      "type": 0,
+      "value": "وصفة اليوم"
+    }
+  ],
+  "app.title": [
+    {
+      "type": 0,
+      "value": "يومتابا"
+    }
+  ]
+}
