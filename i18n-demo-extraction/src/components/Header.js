@@ -10,20 +10,16 @@ export default function Header() {
         <img
           alt={intl.formatMessage({
             defaultMessage: "Yomtaba logo",
-            description: "Image alt text for app logo",
           })}
           className="w-6 h-6 ltr:mr-[1px] rtl:ml-[2px]"
           src="/noun-recipe-2701716.svg"
         />
         <h1 className="text-stone-950 font-bold">
-          <FormattedMessage defaultMessage="Yomtaba" description="App name" />
+          <FormattedMessage defaultMessage="Yomtaba" />
         </h1>
         ·
         <h2 className="font-thin">
-          <FormattedMessage
-            defaultMessage="recipe of the day"
-            description="App tagline"
-          />
+          <FormattedMessage defaultMessage="recipe of the day" />
         </h2>
       </div>
 

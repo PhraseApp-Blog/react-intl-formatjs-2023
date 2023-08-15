@@ -10,19 +10,19 @@ export default function Nutrition() {
         <tr className="bg-amber-400 text-stone-950 text-sm">
           <th colSpan={2}>
             <h4 className="text-stone-950 font-bold text-start px-2 py-1">
-              <FormattedMessage id="nutrition.header" />
+              <FormattedMessage defaultMessage="Nutrition" />
             </h4>
           </th>
 
           <th className="text-end font-normal w-1/3 px-2 py-1">
-            <FormattedMessage id="nutrition.daily_value_header" />
+            <FormattedMessage defaultMessage="Daily Value %" />
           </th>
         </tr>
       </thead>
       <tbody className="text-amber-200 text-sm">
         <tr>
           <td>
-            <FormattedMessage id="nutrition.calories_label" />
+            <FormattedMessage defaultMessage="Calories" />
           </td>
           <td>
             <FormattedNumber value={151} />
@@ -31,7 +31,7 @@ export default function Nutrition() {
         </tr>
         <tr>
           <td>
-            <FormattedMessage id="nutrition.fat_label" />
+            <FormattedMessage defaultMessage="Fat" />
           </td>
           <td>
             <FormattedNumber value={1} style="unit" unit="gram" />
@@ -42,7 +42,7 @@ export default function Nutrition() {
         </tr>
         <tr>
           <td>
-            <FormattedMessage id="nutrition.carbs_label" />
+            <FormattedMessage defaultMessage="Carbs" />
           </td>
           <td>{intl.formatNumber(30, { style: "unit", unit: "gram" })}</td>
           <td className="text-end">
@@ -51,7 +51,7 @@ export default function Nutrition() {
         </tr>
         <tr>
           <td>
-            <FormattedMessage id="nutrition.protein_label" />
+            <FormattedMessage defaultMessage="Protein" />
           </td>
           <td>
             <FormattedNumber value={7} style="unit" unit="gram" />

@@ -1,17 +1,17 @@
 {
-  "7pboUV": {
-    "defaultMessage": "Yomtaba",
-    "description": "App name"
-  },
-  "9nqWxp": {
-    "defaultMessage": "recipe of the day",
-    "description": "App tagline"
-  },
-  "app.title": {
-    "defaultMessage": "Yomtaba"
-  },
-  "fzUVLv": {
-    "defaultMessage": "Yomtaba logo",
-    "description": "Image alt text for app logo"
-  }
+  "+kU528": "Daily Value %",
+  "6SL46U": "by {author}",
+  "7SEgfU": "{count, plural, =0 {No comments} one {# comment} other {# comments}}",
+  "aeyXWv": "Delightful Vegan Bean Burger",
+  "C2Do5L": "Today's recipe",
+  "cJlnG8": "Fat",
+  "cz2vOE": "Vegan burger on a wooden plate",
+  "flq3cC": "Nutrition",
+  "gOUzvj": "Protein",
+  "KDE5tg": "Yomtaba",
+  "LwQO24": "recipe of the day",
+  "Mn6TAS": "{min}min",
+  "Oojraf": "Calories",
+  "qBtxJy": "Carbs",
+  "ykciPr": "Yomtaba logo"
 }
