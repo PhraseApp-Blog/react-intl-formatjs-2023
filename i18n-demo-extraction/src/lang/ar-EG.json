@@ -1,11 +1,17 @@
 {
-  "app.logo_alt": {
-    "defaultMessage": "رمز يومتابا"
+  "7pboUV": {
+    "defaultMessage": "يومتابا",
+    "description": "App name"
   },
-  "app.tagline": {
-    "defaultMessage": "وصفة اليوم"
+  "9nqWxp": {
+    "defaultMessage": "وصفة اليوم",
+    "description": "App tagline"
   },
   "app.title": {
     "defaultMessage": "يومتابا"
+  },
+  "fzUVLv": {
+    "defaultMessage": "رمز يومتابا",
+    "description": "Image alt text for app logo"
   }
 }

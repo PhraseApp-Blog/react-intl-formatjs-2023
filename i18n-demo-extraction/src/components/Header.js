@@ -9,20 +9,20 @@ export default function Header() {
       <div className="flex">
         <img
           alt={intl.formatMessage({
-            id: "app.logo_alt",
             defaultMessage: "Yomtaba logo",
+            description: "Image alt text for app logo",
           })}
           className="w-6 h-6 ltr:mr-[1px] rtl:ml-[2px]"
           src="/noun-recipe-2701716.svg"
         />
         <h1 className="text-stone-950 font-bold">
-          <FormattedMessage id="app.title" defaultMessage="Yomtaba" />
+          <FormattedMessage defaultMessage="Yomtaba" description="App name" />
         </h1>
         ·
         <h2 className="font-thin">
           <FormattedMessage
-            id="app.tagline"
             defaultMessage="recipe of the day"
+            description="App tagline"
           />
         </h2>
       </div>

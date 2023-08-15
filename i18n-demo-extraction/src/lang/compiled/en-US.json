@@ -1,11 +1,11 @@
 {
-  "app.logo_alt": [
+  "7pboUV": [
     {
       "type": 0,
-      "value": "Yomtaba logo"
+      "value": "Yomtaba"
     }
   ],
-  "app.tagline": [
+  "9nqWxp": [
     {
       "type": 0,
       "value": "recipe of the day"
@@ -15,6 +15,12 @@
     {
       "type": 0,
       "value": "Yomtaba"
+    }
+  ],
+  "fzUVLv": [
+    {
+      "type": 0,
+      "value": "Yomtaba logo"
     }
   ]
 }

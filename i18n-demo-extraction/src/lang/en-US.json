@@ -1,11 +1,17 @@
 {
-  "app.logo_alt": {
-    "defaultMessage": "Yomtaba logo"
+  "7pboUV": {
+    "defaultMessage": "Yomtaba",
+    "description": "App name"
   },
-  "app.tagline": {
-    "defaultMessage": "recipe of the day"
+  "9nqWxp": {
+    "defaultMessage": "recipe of the day",
+    "description": "App tagline"
   },
   "app.title": {
     "defaultMessage": "Yomtaba"
+  },
+  "fzUVLv": {
+    "defaultMessage": "Yomtaba logo",
+    "description": "Image alt text for app logo"
   }
 }
