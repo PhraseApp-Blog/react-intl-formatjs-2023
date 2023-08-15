@@ -1,0 +1,13 @@
+phrase:
+  access_token: <your_access_token>
+  project_id: <your_project_id>
+  push:
+    sources:
+      - file: ./src/lang/en-US.json
+        params:
+          file_format: react_simple_json
+  pull:
+    targets:
+      - file: ./src/lang/<locale_name>.json
+        params:
+          file_format: react_simple_json
