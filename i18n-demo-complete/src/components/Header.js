@@ -13,12 +13,13 @@ export default function Header() {
           src="/noun-recipe-2701716.svg"
         />
         <h1 className="text-stone-950 font-bold">
-          <FormattedMessage id="app.title" />
+          <FormattedMessage
+            id="app.title"
+            values={{
+              thin: (chunks) => <span className="font-thin">{chunks}</span>,
+            }}
+          />
         </h1>
-        ·
-        <h2 className="font-thin">
-          <FormattedMessage id="app.tagline" />
-        </h2>
       </div>
 
       <LangSwitcher />

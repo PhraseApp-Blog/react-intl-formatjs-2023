@@ -5,6 +5,22 @@
       "value": "Daily Value %"
     }
   ],
+  "5e3kU9": [
+    {
+      "type": 0,
+      "value": "Yomtaba · "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "recipe of the day"
+        }
+      ],
+      "type": 8,
+      "value": "thin"
+    }
+  ],
   "6SL46U": [
     {
       "type": 0,

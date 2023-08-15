@@ -7,6 +7,9 @@ export function useDocL10n() {
 
   useEffect(() => {
     document.dir = locales[locale].dir;
-    document.title = formatMessage({ id: "app.title" });
+    document.title = formatMessage(
+      { id: "app.title" },
+      { thin: (chunks) => chunks }
+    );
   }, [locale, formatMessage]);
 }
