@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { locales } from "./i18n-config";
+import { Locale, locales } from "./i18n-config";
 import { LocaleContext } from "./LocaleContext";
 import { setStoredLocale } from "./stored-locale";
 
@@ -17,14 +17,14 @@ export default function LangSwitcher() {
       <select
         value={locale}
         onChange={(e) => {
-          setLocale(e.target.value);
-          setStoredLocale(e.target.value);
+          setLocale(e.target.value as Locale);
+          setStoredLocale(e.target.value as Locale);
         }}
         className="bg-transparent appearance-none pe-6"
       >
-        {Object.keys(locales).map((loc) => (
+        {Object.keys(locales).map((loc: string) => (
           <option value={loc} key={loc}>
-            {locales[loc].name}
+            {locales[loc as Locale].name}
           </option>
         ))}
       </select>
