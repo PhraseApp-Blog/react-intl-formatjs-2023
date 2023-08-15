@@ -1,0 +1,17 @@
+{
+  "app.title": "يومتابا  · <thin>وصفة اليوم</thin>",
+  "app.tagline": "وصفة اليوم",
+  "app.logo_alt": "رمز يومتابا",
+  "recipe.title_label": "وصفة اليوم",
+  "recipe.title": "برغر الفاصوليا النباتي الرائع",
+  "recipe.img_alt": "برغر نباتي على طبق خشبي",
+  "recipe.author": "من {author}",
+  "recipe.comment_count": "{count, plural, =0 {لا توجد تعليقات} one {تعليق #} two {تعليقين #} few {# تعليقات} many {# تعليق} other {# تعليق}}",
+  "recipe.time_taken": "{min, number} دقيقة",
+  "nutrition.header": "القيمة الغذائية",
+  "nutrition.daily_value_header": "القيمة اليومية ٪",
+  "nutrition.calories_label": "السعرات الحرارية",
+  "nutrition.fat_label": "الدهون",
+  "nutrition.carbs_label": "النشويلت",
+  "nutrition.protein_label": "بروتين"
+}

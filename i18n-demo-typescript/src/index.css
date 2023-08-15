@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .clip-arrow {
+    clip-path: polygon(80% 0%, 0 0%, 40% 80%);
+  }
+}
+
+body {
+  @apply h-screen ltr:bg-gradient-to-r rtl:bg-gradient-to-l from-amber-500 to-amber-800;
+}
+
+td {
+  @apply px-2 py-1 border-b border-amber-500/30;
+}
+tr:last-child td {
+  @apply border-b-transparent;
+}
