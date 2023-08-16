@@ -1,0 +1,24 @@
+{
+  "app.header": [
+    {
+      "type": 0,
+      "value": "Yomtaba · "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "recipe of the day"
+        }
+      ],
+      "type": 8,
+      "value": "thin"
+    }
+  ],
+  "app.logo_alt": [
+    {
+      "type": 0,
+      "value": "Yomtaba logo"
+    }
+  ]
+}

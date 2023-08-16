@@ -4,10 +4,4 @@ declare global {
   interface Navigator {
     userLanguage?: string;
   }
-
-  namespace FormatjsIntl {
-    interface Message {
-      ids: keyof typeof messages;
-    }
-  }
 }

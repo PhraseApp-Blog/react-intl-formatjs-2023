@@ -1,0 +1,178 @@
+{
+  "app.logo_alt": [
+    {
+      "type": 0,
+      "value": "رمز يومتابا"
+    }
+  ],
+  "app.tagline": [
+    {
+      "type": 0,
+      "value": "وصفة اليوم"
+    }
+  ],
+  "app.title": [
+    {
+      "type": 0,
+      "value": "يومتابا  · "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "وصفة اليوم"
+        }
+      ],
+      "type": 8,
+      "value": "thin"
+    }
+  ],
+  "nutrition.calories_label": [
+    {
+      "type": 0,
+      "value": "السعرات الحرارية"
+    }
+  ],
+  "nutrition.carbs_label": [
+    {
+      "type": 0,
+      "value": "النشويلت"
+    }
+  ],
+  "nutrition.daily_value_header": [
+    {
+      "type": 0,
+      "value": "القيمة اليومية ٪"
+    }
+  ],
+  "nutrition.fat_label": [
+    {
+      "type": 0,
+      "value": "الدهون"
+    }
+  ],
+  "nutrition.header": [
+    {
+      "type": 0,
+      "value": "القيمة الغذائية"
+    }
+  ],
+  "nutrition.protein_label": [
+    {
+      "type": 0,
+      "value": "بروتين"
+    }
+  ],
+  "recipe.author": [
+    {
+      "type": 0,
+      "value": "من "
+    },
+    {
+      "type": 1,
+      "value": "author"
+    }
+  ],
+  "recipe.comment_count": [
+    {
+      "offset": 0,
+      "options": {
+        "=0": {
+          "value": [
+            {
+              "type": 0,
+              "value": "لا توجد تعليقات"
+            }
+          ]
+        },
+        "few": {
+          "value": [
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " تعليقات"
+            }
+          ]
+        },
+        "many": {
+          "value": [
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " تعليق"
+            }
+          ]
+        },
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "تعليق "
+            },
+            {
+              "type": 7
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " تعليق"
+            }
+          ]
+        },
+        "two": {
+          "value": [
+            {
+              "type": 0,
+              "value": "تعليقين "
+            },
+            {
+              "type": 7
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "count"
+    }
+  ],
+  "recipe.img_alt": [
+    {
+      "type": 0,
+      "value": "برغر نباتي على طبق خشبي"
+    }
+  ],
+  "recipe.time_taken": [
+    {
+      "style": null,
+      "type": 2,
+      "value": "min"
+    },
+    {
+      "type": 0,
+      "value": " دقيقة"
+    }
+  ],
+  "recipe.title": [
+    {
+      "type": 0,
+      "value": "برغر الفاصوليا النباتي الرائع"
+    }
+  ],
+  "recipe.title_label": [
+    {
+      "type": 0,
+      "value": "وصفة اليوم"
+    }
+  ]
+}

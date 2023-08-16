@@ -1,17 +1,4 @@
 {
-  "app.title": "Yomtaba · <thin>recipe of the day</thin>",
-  "app.tagline": "recipe of the day",
-  "app.logo_alt": "Yomtaba logo",
-  "recipe.title_label": "Today's recipe",
-  "recipe.title": "Delightful Vegan Bean Burger",
-  "recipe.img_alt": "Vegan burger on a wooden plate",
-  "recipe.author": "by {author}",
-  "recipe.comment_count": "{count, plural, =0 {No comments} one {# comment} other {# comments}}",
-  "recipe.time_taken": "{min}min",
-  "nutrition.header": "Nutrition",
-  "nutrition.daily_value_header": "Daily Value %",
-  "nutrition.calories_label": "Calories",
-  "nutrition.fat_label": "Fat",
-  "nutrition.carbs_label": "Carbs",
-  "nutrition.protein_label": "Protein"
+  "app.header": "Yomtaba · <thin>recipe of the day</thin>",
+  "app.logo_alt": "Yomtaba logo"
 }
