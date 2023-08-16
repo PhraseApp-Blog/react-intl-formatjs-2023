@@ -7,9 +7,8 @@ export function useDocL10n() {
 
   useEffect(() => {
     document.dir = locales[locale as Locale].dir;
-    document.title = formatMessage(
-      { id: "app.title" },
-      { thin: (chunks) => chunks.toString() }
-    );
+    document.title = formatMessage({
+      defaultMessage: "Yomtaba",
+    });
   }, [locale, formatMessage]);
 }

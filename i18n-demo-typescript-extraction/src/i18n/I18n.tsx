@@ -11,7 +11,7 @@ export default function I18n(props: React.PropsWithChildren) {
   useEffect(() => {
     setMessages(null);
 
-    import(`../lang/${locale}.json`)
+    import(`../lang/compiled/${locale}.json`)
       .then((messages_) => setMessages(messages_))
       .catch((err) =>
         console.error(`Error loading messages for locale ${locale}: `, err)

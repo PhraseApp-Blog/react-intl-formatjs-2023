@@ -1,20 +1,14 @@
 {
-  "app.logo_alt": [
+  "+kU528": [
     {
       "type": 0,
-      "value": "رمز يومتابا"
+      "value": "القيمة اليومية ٪"
     }
   ],
-  "app.tagline": [
+  "5e3kU9": [
     {
       "type": 0,
-      "value": "وصفة اليوم"
-    }
-  ],
-  "app.title": [
-    {
-      "type": 0,
-      "value": "يومتابا  · "
+      "value": "يومتابا · "
     },
     {
       "children": [
@@ -27,43 +21,7 @@
       "value": "thin"
     }
   ],
-  "nutrition.calories_label": [
-    {
-      "type": 0,
-      "value": "السعرات الحرارية"
-    }
-  ],
-  "nutrition.carbs_label": [
-    {
-      "type": 0,
-      "value": "النشويلت"
-    }
-  ],
-  "nutrition.daily_value_header": [
-    {
-      "type": 0,
-      "value": "القيمة اليومية ٪"
-    }
-  ],
-  "nutrition.fat_label": [
-    {
-      "type": 0,
-      "value": "الدهون"
-    }
-  ],
-  "nutrition.header": [
-    {
-      "type": 0,
-      "value": "القيمة الغذائية"
-    }
-  ],
-  "nutrition.protein_label": [
-    {
-      "type": 0,
-      "value": "بروتين"
-    }
-  ],
-  "recipe.author": [
+  "6SL46U": [
     {
       "type": 0,
       "value": "من "
@@ -73,7 +31,7 @@
       "value": "author"
     }
   ],
-  "recipe.comment_count": [
+  "7SEgfU": [
     {
       "offset": 0,
       "options": {
@@ -146,13 +104,25 @@
       "value": "count"
     }
   ],
-  "recipe.img_alt": [
+  "C2Do5L": [
     {
       "type": 0,
-      "value": "برغر نباتي على طبق خشبي"
+      "value": "وصفة اليوم"
     }
   ],
-  "recipe.time_taken": [
+  "KDE5tg": [
+    {
+      "type": 0,
+      "value": "يومتابا"
+    }
+  ],
+  "LwQO24": [
+    {
+      "type": 0,
+      "value": "وصفة اليوم"
+    }
+  ],
+  "Mn6TAS": [
     {
       "style": null,
       "type": 2,
@@ -163,16 +133,52 @@
       "value": " دقيقة"
     }
   ],
-  "recipe.title": [
+  "Oojraf": [
+    {
+      "type": 0,
+      "value": "السعرات الحراريه"
+    }
+  ],
+  "aeyXWv": [
     {
       "type": 0,
       "value": "برغر الفاصوليا النباتي الرائع"
     }
   ],
-  "recipe.title_label": [
+  "cJlnG8": [
     {
       "type": 0,
-      "value": "وصفة اليوم"
+      "value": "الدهون"
+    }
+  ],
+  "cz2vOE": [
+    {
+      "type": 0,
+      "value": "برغر نباتي على طبق خشبي"
+    }
+  ],
+  "flq3cC": [
+    {
+      "type": 0,
+      "value": "القيمة الغذائية"
+    }
+  ],
+  "gOUzvj": [
+    {
+      "type": 0,
+      "value": "بروتين"
+    }
+  ],
+  "qBtxJy": [
+    {
+      "type": 0,
+      "value": "النشويات"
+    }
+  ],
+  "ykciPr": [
+    {
+      "type": 0,
+      "value": "رمز يومتابا"
     }
   ]
 }

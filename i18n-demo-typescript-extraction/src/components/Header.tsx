@@ -9,7 +9,6 @@ export default function Header() {
       <div className="flex">
         <img
           alt={intl.formatMessage({
-            id: "app.logo_alt",
             defaultMessage: "Yomtaba logo",
           })}
           className="w-6 h-6 ltr:mr-[1px] rtl:ml-[2px]"
@@ -17,7 +16,6 @@ export default function Header() {
         />
         <h1 className="text-stone-950 font-bold">
           <FormattedMessage
-            id="app.header"
             defaultMessage="Yomtaba · <thin>recipe of the day</thin>"
             values={{
               thin: (chunks) => <span className="font-thin">{chunks}</span>,
