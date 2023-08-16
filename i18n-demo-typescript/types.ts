@@ -1,4 +1,4 @@
-import messages from "../src/lang/en-US.json";
+import messages from "./src/lang/en-US.json";
 
 declare global {
   interface Navigator {
