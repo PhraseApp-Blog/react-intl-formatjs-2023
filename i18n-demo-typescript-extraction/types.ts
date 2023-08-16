@@ -1,7 +1,4 @@
-import messages from "./src/lang/en-US.json";
-
-declare global {
-  interface Navigator {
-    userLanguage?: string;
-  }
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+interface Navigator {
+  userLanguage?: string;
 }
