@@ -9,4 +9,8 @@ export const locales = {
     name: "Arabic (العربية)",
     dir: "rtl",
   },
+  "fr-FR": {
+    name: "French (Français)",
+    dir: "ltr",
+  },
 };
