@@ -8,13 +8,13 @@ export default function Nutrition() {
     <table className="table-auto border-collapse w-full bg-stone-800/40">
       <thead>
         <tr className="bg-amber-400 text-stone-950 text-sm">
-          <th colSpan={2}>
+          <th>
             <h4 className="text-stone-950 font-bold text-start px-2 py-1">
               <FormattedMessage defaultMessage="Nutrition" />
             </h4>
           </th>
 
-          <th className="text-end font-normal w-1/3 px-2 py-1">
+          <th colSpan={2} className="text-end font-normal w-2/3 px-2 py-1">
             <FormattedMessage defaultMessage="Daily Value %" />
           </th>
         </tr>
