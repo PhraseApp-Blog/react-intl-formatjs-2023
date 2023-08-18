@@ -21,7 +21,7 @@ export default function Nutrition() {
       </thead>
       <tbody className="text-amber-200 text-sm">
         <tr>
-          <td>
+          <td className="w-2/5">
             <FormattedMessage defaultMessage="Calories" />
           </td>
           <td>
